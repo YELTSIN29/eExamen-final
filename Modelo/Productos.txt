@@ -1,0 +1,6 @@
+001,Camisas,sdsdsdasdas,5,200,50,60,Samza S.A,A
+002,Pantalones,dsdsdsdsds5,5,50,150,160,Samza S.A,A
+003,Corbatas,dsds ds ds dsdsd,5,200,50,60,Samza S.A,D
+004,Zapatos,dsdasdsad sgdfgdfg,5,150,125,150,Repl S:A,B
+005,Polos,dsdasdas sad sad,5,100,50,65,Repl S:A,C
+006,Zapatillas,dsdsdsds,10,100,90,120,Samza S.A,D

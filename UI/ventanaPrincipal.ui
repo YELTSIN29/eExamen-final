@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>185</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu principal</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Menu Principal</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSalir">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>80</y>
+      <width>281</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cerrar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>625</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRegistro">
+    <property name="title">
+     <string>Registro</string>
+    </property>
+    <addaction name="actionClientes"/>
+    <addaction name="actionEmpleados"/>
+    <addaction name="actionProductos"/>
+    <addaction name="actionProveedor"/>
+   </widget>
+   <widget class="QMenu" name="menuComprobantes">
+    <property name="title">
+     <string>Comprobantes</string>
+    </property>
+    <addaction name="actionVista_Previa"/>
+   </widget>
+   <addaction name="menuRegistro"/>
+   <addaction name="menuComprobantes"/>
+  </widget>
+  <action name="actionClientes">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Iconos/MISC28.ICO</normaloff>../Iconos/MISC28.ICO</iconset>
+   </property>
+   <property name="text">
+    <string>Clientes</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+C</string>
+   </property>
+  </action>
+  <action name="actionEmpleados">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Iconos/Empleado.ico</normaloff>../Iconos/Empleado.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Empleados</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+E</string>
+   </property>
+  </action>
+  <action name="actionProductos">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Iconos/EXPDYMAP.ICO</normaloff>../Iconos/EXPDYMAP.ICO</iconset>
+   </property>
+   <property name="text">
+    <string>Productos</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+P</string>
+   </property>
+  </action>
+  <action name="actionVista_Previa">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Iconos/NOTE14.ICO</normaloff>../Iconos/NOTE14.ICO</iconset>
+   </property>
+   <property name="text">
+    <string>Vista Previa</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+V</string>
+   </property>
+  </action>
+  <action name="actionProveedor">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Iconos/folder users.ico</normaloff>../Iconos/folder users.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Proveedor</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Q</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

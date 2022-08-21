@@ -1,0 +1,3 @@
+08693923,Juan,Perez,Salas,Av. Perú 123,987587478
+08693924,Roberto,Rojas,Sarmiento,Jr. Cusco 123,987441235
+12345678,Cesar,Acosta,Perez,Av. Peru 123,3434455
